@@ -1,29 +1,17 @@
-# Criando um Web Service SOAP no .Net Core com o Pacote SoapCore
+# Criando um Web Service SOAP no .Net Core com o Pacote [SoapCore](https://github.com/DigDes/SoapCore)
+
 
 ## Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+- [Sobre](#sobre)
+- [Iniciando](#iniciando)
+- [Dicas](#dicas)
 
-## About <a name = "about"></a>
+## Sobre <a name = "sobre"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Web Service SOAP no ASP .Net Core
 
-## Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
+## Iniciando <a name = "iniciando"></a>
 
 Usando dotnet cli para criar um novo projeto
 
@@ -37,7 +25,7 @@ instalando o pacote SoapCore para criar um Web Service
 dotnet add package SoapCore
 ```
 
-### Dicas
+### Dicas <a name = "dicas"></a>
 
 Plugin do Chrome para pegar os metodos da pagina .asmx:
 [Wizdler](https://chrome.google.com/webstore/search/wizdler?hl=en-US&utm_source=chrome-ntp-launcher)

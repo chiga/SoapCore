@@ -1,4 +1,5 @@
 using System.ServiceModel;
+using System.ServiceModel.Channels;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +19,7 @@ namespace prjSoapCore
             services.TryAddSingleton<ISampleService, SampleService>();
 			services.AddMvc(x => x.EnableEndpointRouting = false);
 			services.AddSoapCore();
+            services.AddSoapServiceOperationTuner(new minhaHeader());        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
