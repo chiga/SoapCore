@@ -1,5 +1,7 @@
 # Criando um Web Service SOAP no .Net Core com o Pacote [SoapCore](https://github.com/DigDes/SoapCore)
 
+> Exemplo de uso do pacote [SoapCore]([https://github.](https://github.com/DigDes/SoapCore))
+
 
 ## Table of Contents
 
@@ -24,6 +26,11 @@ instalando o pacote SoapCore para criar um Web Service
 ```bash
 dotnet add package SoapCore
 ```
+
+### ToDo
+- [ ] implementar Header
+
+
 
 ### Dicas <a name = "dicas"></a>
 
